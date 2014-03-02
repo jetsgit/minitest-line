@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name     = "minitest-line"
-  s.version  = "0.5.0"
+  s.version  = "0.5.1"
   s.date     = "2014-03-01"
   s.summary  = "Focused tests for Minitest"
   s.email    = "judofyr@gmail.com"
@@ -15,4 +15,5 @@ Gem::Specification.new do |s|
   s.test_files    = Dir['test/**/*']
 
   s.add_runtime_dependency('minitest')
+  s.add_runtime_dependency('minitest-rails-capybara')
 end
