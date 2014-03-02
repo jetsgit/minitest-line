@@ -19,9 +19,9 @@ module Minitest
 
     methods.each do |name, meth|
       next unless loc = meth.source_location
-      current_filename ||= loc[1]
-      next unless current_filename == loc[1]
-      tests[loc[2]] = name
+      current_filename ||= loc[0]
+      next unless current_filename == loc[0]
+      tests[loc[1]] = name
     end
 
     _, main_test = tests.sort_by { |k, v| -k }.detect do |line, name|
