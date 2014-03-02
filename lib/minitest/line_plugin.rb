@@ -5,7 +5,7 @@ require "capybara/rails"
 require "minitest/metadata"
 
 module Capybara
-  module Minitest
+  module Rails
     def self.plugin_line_options(opts, options)
       opts.on '-l', '--line N', Integer, "Run test at line number" do |lineno|
         options[:line] = lineno
