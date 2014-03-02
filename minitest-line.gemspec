@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name     = "minitest-line"
-  s.version  = "0.5.5"
+  s.version  = "0.5.6"
   s.date     = "2014-03-01"
   s.summary  = "Focused tests for Minitest"
   s.email    = "judofyr@gmail.com"
