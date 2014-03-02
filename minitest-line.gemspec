@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
   s.name     = "minitest-line"
   s.version  = "0.5.0"
-  s.date     = "2013-05-26"
+  s.date     = "2014-03-1"
   s.summary  = "Focused tests for Minitest"
   s.email    = "judofyr@gmail.com"
   s.homepage = "https://github.com/judofyr/minitest-line"
@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
   s.files         = Dir['{test,lib}/**/*']
   s.test_files    = Dir['test/**/*']
 
-  s.add_runtime_dependency('minitest', '~> 4.75')
+  s.add_runtime_dependency('minitest')
 end
